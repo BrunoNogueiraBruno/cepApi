@@ -1,0 +1,50 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Flask instance folder (it can contain sensitive data, such as logs or database files)
+instance/
+
+# Configuration files
+*.env
+*.flaskenv
+
+# Logs
+*.log
+
+# Flask's default SQLite database
+*.db
+*.sqlite3
+
+# PyCharm, VS Code, and other IDE files
+.vscode/
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Coverage reports
+.coverage
+*.cover
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# Test cache
+nosetests.xml
+.coverage.*
+*.hypothesis/
+
+# Other general files
+*.bak
+*.swp
